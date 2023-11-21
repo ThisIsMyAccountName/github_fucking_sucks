@@ -1,0 +1,43 @@
+%%MatrixMarket matrix coordinate real general
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/Hamrle/Hamrle1
+% name: Hamrle/Hamrle1
+% [Hamrle/Hamrle1 circuit simulation matrix]
+% id: 1199
+% date: 2004
+% author: J. Hamrle
+% ed: T. Davis
+% fields: name title A b id date author ed kind
+% kind: circuit simulation problem
+%-------------------------------------------------------------------------------
+10 10 29
+1 1 1 
+1 10 1 
+2 2 1 
+2 10 1 
+3 3 1 
+3 10 1 
+4 4 1 
+4 10 1 
+5 5 1 
+5 10 1 
+6 6 1 
+6 10 1 
+7 7 1 
+7 10 1 
+8 8 1 
+8 10 1 
+9 9 1 
+9 10 1 
+10 1 1 
+10 2 1 
+10 3 1 
+10 4 1 
+10 5 1 
+10 6 1 
+10 7 1 
+10 8 1 
+10 9 1 
+10 10 1 
+10 10 1 
