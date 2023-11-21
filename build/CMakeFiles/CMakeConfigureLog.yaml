@@ -2603,3 +2603,82 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/boost_mpi-1.82.0/boost_mpi-config.cmake:118 (find_dependency)"
+      - "/usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-5b6v4F"
+      binary: "/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-5b6v4F"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-5b6v4F'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.6/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40111/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_40111.dir/build.make CMakeFiles/cmTC_40111.dir/build
+        Building CXX object CMakeFiles/cmTC_40111.dir/test_mpi.cpp.o
+        /usr/local/bin/g++-13  -isystem /usr/local/Cellar/open-mpi/4.1.5/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_40111.dir/test_mpi.cpp.o -c /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-5b6v4F/test_mpi.cpp
+        Linking CXX executable cmTC_40111
+        /usr/local/Cellar/cmake/3.27.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40111.dir/link.txt --verbose=1
+        /usr/local/bin/g++-13  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/Cellar/libevent/2.1.12_1/lib CMakeFiles/cmTC_40111.dir/test_mpi.cpp.o -o cmTC_40111  /usr/local/Cellar/open-mpi/4.1.5/lib/libmpi.dylib 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/boost_mpi-1.82.0/boost_mpi-config.cmake:118 (find_dependency)"
+      - "/usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindBoost.cmake:594 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-JJcmPS"
+      binary: "/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-JJcmPS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-JJcmPS'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.27.6/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c46c9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c46c9.dir/build.make CMakeFiles/cmTC_c46c9.dir/build
+        Building CXX object CMakeFiles/cmTC_c46c9.dir/test_mpi.cpp.o
+        /usr/local/bin/g++-13  -isystem /usr/local/Cellar/open-mpi/4.1.5/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_c46c9.dir/test_mpi.cpp.o -c /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles/CMakeScratch/TryCompile-JJcmPS/test_mpi.cpp
+        Linking CXX executable cmTC_c46c9
+        /usr/local/Cellar/cmake/3.27.6/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c46c9.dir/link.txt --verbose=1
+        /usr/local/bin/g++-13  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/Cellar/libevent/2.1.12_1/lib CMakeFiles/cmTC_c46c9.dir/test_mpi.cpp.o -o cmTC_c46c9  /usr/local/Cellar/open-mpi/4.1.5/lib/libmpi.dylib 
+        
+      exitCode: 0
+...

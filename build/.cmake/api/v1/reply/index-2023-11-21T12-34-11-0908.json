@@ -66,6 +66,10 @@
 	{
 		"client-vscode" : 
 		{
+			"query 2.json" : 
+			{
+				"error" : "unknown query file"
+			},
 			"query.json" : 
 			{
 				"requests" : 
