@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdragonbox_to_chars.a CMakeFiles/dragonbox_to_chars.dir/source/dragonbox_to_chars.cpp.o
+/usr/bin/ranlib libdragonbox_to_chars.a

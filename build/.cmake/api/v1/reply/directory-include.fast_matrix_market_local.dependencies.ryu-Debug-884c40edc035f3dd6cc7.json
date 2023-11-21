@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"include/fast_matrix_market/dependencies/ryu/CMakeLists.txt"
+			"include/fast_matrix_market_local/dependencies/ryu/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -36,9 +36,9 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"include/fast_matrix_market/dependencies/ryu/libryu.a"
+				"include/fast_matrix_market_local/dependencies/ryu/libryu.a"
 			],
-			"targetId" : "ryu::@eb6d5992fffe59984c0a",
+			"targetId" : "ryu::@9d8ae02723ff481f9a6c",
 			"targetIndex" : 2,
 			"type" : "target"
 		},
@@ -48,14 +48,14 @@
 			"destination" : "include/ryu",
 			"paths" : 
 			[
-				"include/fast_matrix_market/dependencies/ryu/ryu/ryu.h"
+				"include/fast_matrix_market_local/dependencies/ryu/ryu/ryu.h"
 			],
 			"type" : "file"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "include/fast_matrix_market/dependencies/ryu",
-		"source" : "include/fast_matrix_market/dependencies/ryu"
+		"build" : "include/fast_matrix_market_local/dependencies/ryu",
+		"source" : "include/fast_matrix_market_local/dependencies/ryu"
 	}
 }

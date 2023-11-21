@@ -9,7 +9,7 @@ find_package(Boost REQUIRED COMPONENTS program_options mpi)
 find_package(MPI REQUIRED)
 find_package(OpenMP REQUIRED)
 
-add_subdirectory(include/fast_matrix_market)
+add_subdirectory(include/fast_matrix_market_local)
 
 set(CMAKE_CXX_FLAGS "-O3 -ffast-math -fopenmp")
 # Set the number of MPI processes (ranks)

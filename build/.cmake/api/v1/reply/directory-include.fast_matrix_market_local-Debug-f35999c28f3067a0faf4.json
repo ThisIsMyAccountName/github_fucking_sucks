@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "include/fast_matrix_market",
-		"source" : "include/fast_matrix_market"
+		"build" : "include/fast_matrix_market_local",
+		"source" : "include/fast_matrix_market_local"
 	}
 }

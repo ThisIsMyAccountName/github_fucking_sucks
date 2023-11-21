@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/fast_matrix_market_local/dependencies/fast_float",
+		"source" : "include/fast_matrix_market_local/dependencies/fast_float"
+	}
+}

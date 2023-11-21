@@ -26,7 +26,7 @@
 			"/usr/local/lib/cmake/boost_mpi-1.82.0/boost_mpi-config.cmake",
 			"/usr/local/lib/cmake/Boost-1.82.0/BoostConfig.cmake",
 			"/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindBoost.cmake",
-			"include/fast_matrix_market/CMakeLists.txt"
+			"include/fast_matrix_market_local/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -244,15 +244,15 @@
 				},
 				{
 					"backtrace" : 19,
-					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include"
+					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/fast_float/include"
+					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/fast_float/include"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/ryu"
+					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/ryu"
 				},
 				{
 					"backtrace" : 22,
@@ -267,7 +267,7 @@
 				{
 					"backtrace" : 19,
 					"isSystem" : true,
-					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox/include"
+					"path" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox/include"
 				}
 			],
 			"language" : "CXX",
@@ -281,11 +281,11 @@
 	[
 		{
 			"backtrace" : 19,
-			"id" : "dragonbox_to_chars::@a39a80b0302eec61f50f"
+			"id" : "dragonbox_to_chars::@17094c88b5fb99552d31"
 		},
 		{
 			"backtrace" : 19,
-			"id" : "ryu::@eb6d5992fffe59984c0a"
+			"id" : "ryu::@9d8ae02723ff481f9a6c"
 		}
 	],
 	"id" : "CSR::@6890427a1f51a3e7e1df",
@@ -333,12 +333,12 @@
 			},
 			{
 				"backtrace" : 17,
-				"fragment" : "include/fast_matrix_market/dependencies/dragonbox/libdragonbox_to_chars.a",
+				"fragment" : "include/fast_matrix_market_local/dependencies/dragonbox/libdragonbox_to_chars.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 18,
-				"fragment" : "include/fast_matrix_market/dependencies/ryu/libryu.a",
+				"fragment" : "include/fast_matrix_market_local/dependencies/ryu/libryu.a",
 				"role" : "libraries"
 			}
 		],

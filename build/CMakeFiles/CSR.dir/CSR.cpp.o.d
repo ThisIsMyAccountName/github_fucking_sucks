@@ -235,7 +235,7 @@ CMakeFiles/CSR.dir/CSR.cpp.o: \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/x86_64-apple-darwin22/bits/basic_file.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/x86_64-apple-darwin22/bits/c++io.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/fstream.tcc \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/fast_matrix_market.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/fast_matrix_market.hpp \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/algorithm \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/stl_algo.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/algorithmfwd.h \
@@ -278,10 +278,10 @@ CMakeFiles/CSR.dir/CSR.cpp.o: \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/sstream.tcc \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/utility \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/stl_relops.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/types.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/types.hpp \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/complex \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/app/user_type_string.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/field_conv.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/app/user_type_string.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/field_conv.hpp \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/charconv \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/cstring \
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/string.h \
@@ -295,7 +295,7 @@ CMakeFiles/CSR.dir/CSR.cpp.o: \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/locale_conv.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/quoted_string.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/fast_float/include/fast_float/fast_float.h \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/fast_float/include/fast_float/fast_float.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/version \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/cfloat \
  /usr/local/Cellar/gcc/13.2.0/lib/gcc/current/gcc/x86_64-apple-darwin22/13/include/float.h \
@@ -314,12 +314,12 @@ CMakeFiles/CSR.dir/CSR.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/limits.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/_limits.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox/include/dragonbox/dragonbox_to_chars.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox/include/dragonbox/dragonbox.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/ryu/ryu/ryu.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/header.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/chunking.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/parse_handlers.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox/include/dragonbox/dragonbox_to_chars.h \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox/include/dragonbox/dragonbox.h \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/ryu/ryu/ryu.h \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/header.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/chunking.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/parse_handlers.hpp \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/functional \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/unordered_map \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/unordered_map.h \
@@ -328,17 +328,17 @@ CMakeFiles/CSR.dir/CSR.cpp.o: \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/enable_special_members.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/array \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/compare \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/formatters.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/read_body.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/read_body_threads.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/formatters.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/read_body.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/read_body_threads.hpp \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/queue \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/deque \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/stl_deque.h \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/deque.tcc \
  /usr/local/Cellar/gcc/13.2.0/include/c++/13/bits/stl_queue.h \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/thirdparty/task_thread_pool.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/write_body.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/write_body_threads.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/app/array.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/app/doublet.hpp \
- /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/include/fast_matrix_market/app/triplet.hpp
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/thirdparty/task_thread_pool.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/write_body.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/write_body_threads.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/app/array.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/app/doublet.hpp \
+ /Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/include/fast_matrix_market/app/triplet.hpp

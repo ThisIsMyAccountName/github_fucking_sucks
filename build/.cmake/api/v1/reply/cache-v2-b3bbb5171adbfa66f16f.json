@@ -2323,7 +2323,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/dragonbox"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/dragonbox"
 		},
 		{
 			"name" : "dragonbox_IS_TOP_LEVEL",
@@ -2347,7 +2347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox"
 		},
 		{
 			"name" : "fast_float_BINARY_DIR",
@@ -2359,7 +2359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/fast_float"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/fast_float"
 		},
 		{
 			"name" : "fast_float_IS_TOP_LEVEL",
@@ -2383,7 +2383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/fast_float"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/fast_float"
 		},
 		{
 			"name" : "fast_matrix_market_BINARY_DIR",
@@ -2395,7 +2395,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local"
 		},
 		{
 			"name" : "fast_matrix_market_IS_TOP_LEVEL",
@@ -2419,7 +2419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local"
 		},
 		{
 			"name" : "from_chars_double_supported",
@@ -2467,7 +2467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/ryu"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/ryu"
 		},
 		{
 			"name" : "ryu_IS_TOP_LEVEL",
@@ -2491,7 +2491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/ryu"
+			"value" : "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/ryu"
 		},
 		{
 			"name" : "to_chars_double_supported",

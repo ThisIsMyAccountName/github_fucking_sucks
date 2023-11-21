@@ -11,12 +11,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeSystem.cmake"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/CMakeLists.txt"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/cmake/from_chars_tests.cmake"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/cmake/to_chars_tests.cmake"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox/CMakeLists.txt"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/fast_float/CMakeLists.txt"
-  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/ryu/CMakeLists.txt"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/CMakeLists.txt"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/cmake/from_chars_tests.cmake"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/cmake/to_chars_tests.cmake"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox/CMakeLists.txt"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/fast_float/CMakeLists.txt"
+  "/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/ryu/CMakeLists.txt"
   "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -86,16 +86,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/fast_matrix_market/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/fast_matrix_market/dependencies/fast_float/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/fast_matrix_market/dependencies/dragonbox/dragonboxConfigVersion.cmake"
-  "include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/fast_matrix_market/dependencies/ryu/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/fast_matrix_market_local/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/fast_matrix_market_local/dependencies/fast_float/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/fast_matrix_market_local/dependencies/dragonbox/dragonboxConfigVersion.cmake"
+  "include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CSR.dir/DependInfo.cmake"
-  "include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/DependInfo.cmake"
-  "include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/DependInfo.cmake"
+  "include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/DependInfo.cmake"
+  "include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/DependInfo.cmake"
   )

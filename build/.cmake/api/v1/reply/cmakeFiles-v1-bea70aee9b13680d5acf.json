@@ -312,7 +312,7 @@
 			"path" : "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "include/fast_matrix_market/CMakeLists.txt"
+			"path" : "include/fast_matrix_market_local/CMakeLists.txt"
 		},
 		{
 			"isCMake" : true,
@@ -350,7 +350,7 @@
 			"path" : "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "include/fast_matrix_market/cmake/from_chars_tests.cmake"
+			"path" : "include/fast_matrix_market_local/cmake/from_chars_tests.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -358,7 +358,7 @@
 			"path" : "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
 		},
 		{
-			"path" : "include/fast_matrix_market/cmake/to_chars_tests.cmake"
+			"path" : "include/fast_matrix_market_local/cmake/to_chars_tests.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -366,10 +366,10 @@
 			"path" : "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
 		},
 		{
-			"path" : "include/fast_matrix_market/dependencies/fast_float/CMakeLists.txt"
+			"path" : "include/fast_matrix_market_local/dependencies/fast_float/CMakeLists.txt"
 		},
 		{
-			"path" : "include/fast_matrix_market/dependencies/dragonbox/CMakeLists.txt"
+			"path" : "include/fast_matrix_market_local/dependencies/dragonbox/CMakeLists.txt"
 		},
 		{
 			"isCMake" : true,
@@ -392,7 +392,7 @@
 			"path" : "/usr/local/Cellar/cmake/3.27.6/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
 		},
 		{
-			"path" : "include/fast_matrix_market/dependencies/ryu/CMakeLists.txt"
+			"path" : "include/fast_matrix_market_local/dependencies/ryu/CMakeLists.txt"
 		},
 		{
 			"isGenerated" : true,
