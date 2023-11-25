@@ -430,40 +430,40 @@ boost_program_options_DIR:PATH=/usr/local/lib/cmake/boost_program_options-1.82.0
 boost_serialization_DIR:PATH=/usr/local/lib/cmake/boost_serialization-1.82.0
 
 //Value Computed by CMake
-dragonbox_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/dragonbox
+dragonbox_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/dragonbox
 
 //Value Computed by CMake
 dragonbox_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-dragonbox_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/dragonbox
+dragonbox_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/dragonbox
 
 //Value Computed by CMake
-fast_float_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/fast_float
+fast_float_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/fast_float
 
 //Value Computed by CMake
 fast_float_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-fast_float_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/fast_float
+fast_float_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/fast_float
 
 //Value Computed by CMake
-fast_matrix_market_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local
+fast_matrix_market_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market
 
 //Value Computed by CMake
 fast_matrix_market_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-fast_matrix_market_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local
+fast_matrix_market_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market
 
 //Value Computed by CMake
-ryu_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/dependencies/ryu
+ryu_BINARY_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/dependencies/ryu
 
 //Value Computed by CMake
 ryu_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ryu_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market_local/dependencies/ryu
+ryu_SOURCE_DIR:STATIC=/Users/simonandersen/Desktop/INF339Assingment3/include/fast_matrix_market/dependencies/ryu
 
 
 ########################

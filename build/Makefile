@@ -184,7 +184,7 @@ dragonbox_to_chars: cmake_check_build_system
 
 # fast build rule for target.
 dragonbox_to_chars/fast:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build
 .PHONY : dragonbox_to_chars/fast
 
 #=============================================================================
@@ -197,7 +197,7 @@ ryu: cmake_check_build_system
 
 # fast build rule for target.
 ryu/fast:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build
 .PHONY : ryu/fast
 
 CSR.o: CSR.cpp.o

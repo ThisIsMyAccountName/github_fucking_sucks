@@ -96,8 +96,8 @@ CSR: /usr/local/lib/libboost_program_options-mt.dylib
 CSR: /usr/local/lib/libboost_mpi-mt.dylib
 CSR: /usr/local/Cellar/open-mpi/4.1.5/lib/libmpi.dylib
 CSR: /usr/local/lib/libboost_serialization-mt.dylib
-CSR: include/fast_matrix_market_local/dependencies/dragonbox/libdragonbox_to_chars.a
-CSR: include/fast_matrix_market_local/dependencies/ryu/libryu.a
+CSR: include/fast_matrix_market/dependencies/dragonbox/libdragonbox_to_chars.a
+CSR: include/fast_matrix_market/dependencies/ryu/libryu.a
 CSR: CMakeFiles/CSR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CSR"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSR.dir/link.txt --verbose=$(VERBOSE)

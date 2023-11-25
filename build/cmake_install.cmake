@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market_local/cmake_install.cmake")
+  include("/Users/simonandersen/Desktop/INF339Assingment3/build/include/fast_matrix_market/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

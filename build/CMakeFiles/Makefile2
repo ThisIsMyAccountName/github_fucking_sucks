@@ -64,90 +64,90 @@ CMAKE_BINARY_DIR = /Users/simonandersen/Desktop/INF339Assingment3/build
 
 # The main recursive "all" target.
 all: CMakeFiles/CSR.dir/all
-all: include/fast_matrix_market_local/all
+all: include/fast_matrix_market/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: include/fast_matrix_market_local/preinstall
+preinstall: include/fast_matrix_market/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CSR.dir/clean
-clean: include/fast_matrix_market_local/clean
+clean: include/fast_matrix_market/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory include/fast_matrix_market_local
+# Directory level rules for directory include/fast_matrix_market
 
 # Recursive "all" directory target.
-include/fast_matrix_market_local/all: include/fast_matrix_market_local/dependencies/fast_float/all
-include/fast_matrix_market_local/all: include/fast_matrix_market_local/dependencies/dragonbox/all
-include/fast_matrix_market_local/all: include/fast_matrix_market_local/dependencies/ryu/all
-.PHONY : include/fast_matrix_market_local/all
+include/fast_matrix_market/all: include/fast_matrix_market/dependencies/fast_float/all
+include/fast_matrix_market/all: include/fast_matrix_market/dependencies/dragonbox/all
+include/fast_matrix_market/all: include/fast_matrix_market/dependencies/ryu/all
+.PHONY : include/fast_matrix_market/all
 
 # Recursive "preinstall" directory target.
-include/fast_matrix_market_local/preinstall: include/fast_matrix_market_local/dependencies/fast_float/preinstall
-include/fast_matrix_market_local/preinstall: include/fast_matrix_market_local/dependencies/dragonbox/preinstall
-include/fast_matrix_market_local/preinstall: include/fast_matrix_market_local/dependencies/ryu/preinstall
-.PHONY : include/fast_matrix_market_local/preinstall
+include/fast_matrix_market/preinstall: include/fast_matrix_market/dependencies/fast_float/preinstall
+include/fast_matrix_market/preinstall: include/fast_matrix_market/dependencies/dragonbox/preinstall
+include/fast_matrix_market/preinstall: include/fast_matrix_market/dependencies/ryu/preinstall
+.PHONY : include/fast_matrix_market/preinstall
 
 # Recursive "clean" directory target.
-include/fast_matrix_market_local/clean: include/fast_matrix_market_local/dependencies/fast_float/clean
-include/fast_matrix_market_local/clean: include/fast_matrix_market_local/dependencies/dragonbox/clean
-include/fast_matrix_market_local/clean: include/fast_matrix_market_local/dependencies/ryu/clean
-.PHONY : include/fast_matrix_market_local/clean
+include/fast_matrix_market/clean: include/fast_matrix_market/dependencies/fast_float/clean
+include/fast_matrix_market/clean: include/fast_matrix_market/dependencies/dragonbox/clean
+include/fast_matrix_market/clean: include/fast_matrix_market/dependencies/ryu/clean
+.PHONY : include/fast_matrix_market/clean
 
 #=============================================================================
-# Directory level rules for directory include/fast_matrix_market_local/dependencies/dragonbox
+# Directory level rules for directory include/fast_matrix_market/dependencies/dragonbox
 
 # Recursive "all" directory target.
-include/fast_matrix_market_local/dependencies/dragonbox/all: include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/all
+include/fast_matrix_market/dependencies/dragonbox/all: include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/all
 
 # Recursive "preinstall" directory target.
-include/fast_matrix_market_local/dependencies/dragonbox/preinstall:
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/preinstall
+include/fast_matrix_market/dependencies/dragonbox/preinstall:
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/preinstall
 
 # Recursive "clean" directory target.
-include/fast_matrix_market_local/dependencies/dragonbox/clean: include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/clean
+include/fast_matrix_market/dependencies/dragonbox/clean: include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/clean
 
 #=============================================================================
-# Directory level rules for directory include/fast_matrix_market_local/dependencies/fast_float
+# Directory level rules for directory include/fast_matrix_market/dependencies/fast_float
 
 # Recursive "all" directory target.
-include/fast_matrix_market_local/dependencies/fast_float/all:
-.PHONY : include/fast_matrix_market_local/dependencies/fast_float/all
+include/fast_matrix_market/dependencies/fast_float/all:
+.PHONY : include/fast_matrix_market/dependencies/fast_float/all
 
 # Recursive "preinstall" directory target.
-include/fast_matrix_market_local/dependencies/fast_float/preinstall:
-.PHONY : include/fast_matrix_market_local/dependencies/fast_float/preinstall
+include/fast_matrix_market/dependencies/fast_float/preinstall:
+.PHONY : include/fast_matrix_market/dependencies/fast_float/preinstall
 
 # Recursive "clean" directory target.
-include/fast_matrix_market_local/dependencies/fast_float/clean:
-.PHONY : include/fast_matrix_market_local/dependencies/fast_float/clean
+include/fast_matrix_market/dependencies/fast_float/clean:
+.PHONY : include/fast_matrix_market/dependencies/fast_float/clean
 
 #=============================================================================
-# Directory level rules for directory include/fast_matrix_market_local/dependencies/ryu
+# Directory level rules for directory include/fast_matrix_market/dependencies/ryu
 
 # Recursive "all" directory target.
-include/fast_matrix_market_local/dependencies/ryu/all: include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/all
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/all
+include/fast_matrix_market/dependencies/ryu/all: include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/all
+.PHONY : include/fast_matrix_market/dependencies/ryu/all
 
 # Recursive "preinstall" directory target.
-include/fast_matrix_market_local/dependencies/ryu/preinstall:
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/preinstall
+include/fast_matrix_market/dependencies/ryu/preinstall:
+.PHONY : include/fast_matrix_market/dependencies/ryu/preinstall
 
 # Recursive "clean" directory target.
-include/fast_matrix_market_local/dependencies/ryu/clean: include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/clean
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/clean
+include/fast_matrix_market/dependencies/ryu/clean: include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/clean
+.PHONY : include/fast_matrix_market/dependencies/ryu/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CSR.dir
 
 # All Build rule for target.
-CMakeFiles/CSR.dir/all: include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
-CMakeFiles/CSR.dir/all: include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/all
+CMakeFiles/CSR.dir/all: include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
+CMakeFiles/CSR.dir/all: include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSR.dir/build.make CMakeFiles/CSR.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSR.dir/build.make CMakeFiles/CSR.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles --progress-num=1,2 "Built target CSR"
@@ -170,56 +170,56 @@ CMakeFiles/CSR.dir/clean:
 .PHONY : CMakeFiles/CSR.dir/clean
 
 #=============================================================================
-# Target rules for target include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir
+# Target rules for target include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir
 
 # All Build rule for target.
-include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/depend
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build
+include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all:
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles --progress-num=3,4 "Built target dragonbox_to_chars"
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
 
 # Build rule for subdir invocation for target.
-include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule: cmake_check_build_system
+include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles 0
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule
 
 # Convenience name for target.
-dragonbox_to_chars: include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule
+dragonbox_to_chars: include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/rule
 .PHONY : dragonbox_to_chars
 
 # clean rule for target.
-include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
-.PHONY : include/fast_matrix_market_local/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
+include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/build.make include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
+.PHONY : include/fast_matrix_market/dependencies/dragonbox/CMakeFiles/dragonbox_to_chars.dir/clean
 
 #=============================================================================
-# Target rules for target include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir
+# Target rules for target include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir
 
 # All Build rule for target.
-include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/all:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/depend
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build
+include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/all:
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles --progress-num=5,6,7,8 "Built target ryu"
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/all
+.PHONY : include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/all
 
 # Build rule for subdir invocation for target.
-include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/rule: cmake_check_build_system
+include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonandersen/Desktop/INF339Assingment3/build/CMakeFiles 0
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/rule
+.PHONY : include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/rule
 
 # Convenience name for target.
-ryu: include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/rule
+ryu: include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/rule
 .PHONY : ryu
 
 # clean rule for target.
-include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/clean:
-	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/clean
-.PHONY : include/fast_matrix_market_local/dependencies/ryu/CMakeFiles/ryu.dir/clean
+include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/build.make include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/clean
+.PHONY : include/fast_matrix_market/dependencies/ryu/CMakeFiles/ryu.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
