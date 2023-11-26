@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 	int reps = 100;
     ifstream file;
 
-    file.open("../../../global/D1/projects/UiB-INF339/matrices/hugetrace-00020.mtx");
+    file.open("../UiB-INF339/matrices/hugetrace-00020.mtx");
     if (!file.is_open()) {
         cerr << "Error: Could not open file." << endl;
         MPI_Abort(MPI_COMM_WORLD, 1);
@@ -72,15 +72,13 @@ int main(int argc, char *argv[]) {
     double t0, tcomp = 0.0, tcomm = 0.0, comsize = 0.0;
     MPI_Barrier(MPI_COMM_WORLD);
     t0 = MPI_Wtime();
-	int work = 0;
     for (int k = 0; k < reps; k++) {
         double tc1 = MPI_Wtime();
-#pragma omp parallel for reduction(+:work)
+#pragma omp parallel for
         for (int row = start_idx; row < end_idx; row++) {
             double sum = 0.0;
             for (int i = row_ptrs[row]; i < row_ptrs[row + 1]; i++) {
                 sum += A[i] * v_old[row_idx[i]];
-				work++;
             }
             v_new[row - start_idx] += sum;
         }
@@ -107,14 +105,13 @@ int main(int argc, char *argv[]) {
     double t1 = MPI_Wtime();
 
 
-    double ops = (long long)rows * 8ll * 100ll;
+    double ops = (long long)A.size() * 8ll * 100ll;
     double time = t1 - t0;
 
     if (rank == 0) {
         printf("%lfs (%lfs, %lfs), %lf GFLOPS, %lf GBs mem, %lf GBs comm\n",
-               time, tcomp, tcomm, (ops / time) / 1e9, (rows * 64.0 * 100.0 / tcomp) / 1e9, comsize / 1e9);
+               time, tcomp, tcomm, (ops / time) / 1e9, (A.size() * 64.0 * 100.0 / tcomp) / 1e9, comsize / 1e9);
     }
-	cout << "rank: " << rank << " work: " << work << endl;
     MPI_Finalize();
     return 0;
 }

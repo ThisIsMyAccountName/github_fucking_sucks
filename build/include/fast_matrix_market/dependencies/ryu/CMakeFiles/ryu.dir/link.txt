@@ -1,2 +1,0 @@
-/usr/bin/ar qc libryu.a CMakeFiles/ryu.dir/ryu/f2s.c.o CMakeFiles/ryu.dir/ryu/d2s.c.o CMakeFiles/ryu.dir/ryu/d2fixed.c.o
-/usr/bin/ranlib libryu.a

@@ -1,3 +1,0 @@
-/Users/simonandersen/Desktop/INF339Assingment3/build/_deps/fast_matrix_market-subbuild/CMakeFiles/fast_matrix_market-populate.dir
-/Users/simonandersen/Desktop/INF339Assingment3/build/_deps/fast_matrix_market-subbuild/CMakeFiles/edit_cache.dir
-/Users/simonandersen/Desktop/INF339Assingment3/build/_deps/fast_matrix_market-subbuild/CMakeFiles/rebuild_cache.dir
